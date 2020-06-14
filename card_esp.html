@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card by especificie</title>
+    <link rel="stylesheet" href="cardstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box first">
+            <span class="icon-cont">
+                <i class="fa fa-rocket"></i>
+            </span>
+            <h3>CREATIVE</h3>
+            <br>
+            <ul class="hidden">
+                <li>lorem ipsum dolor</li>
+                <li>lorem ipsum dolor</li>
+                <li>lorem ipsum dolor</li>
+                <li>lorem ipsum dolor</li>
+            </ul>
+            <br><br>
+            <a class="expand">
+                <span class="plus">+</span>
+                <span class="minus">-</span>
+            </a>
+        </div>
+        <div class="box second">
+                <span class="icon-cont">
+                    <i class="fa fa-edit"></i>
+                </span>
+                <h3>HIGHEND</h3>
+                <br>
+                <ul class="hidden">
+                    <li>lorem ipsum dolor</li>
+                    <li>lorem ipsum dolor</li>
+                    <li>lorem ipsum dolor</li>
+                    <li>lorem ipsum dolor</li>
+                </ul>
+                <br><br>
+                <a class="expand">
+                    <span class="plus">+</span>
+                    <span class="minus">-</span>
+                </a>
+            </div>
+            <div class="box third">
+                    <span class="icon-cont">
+                        <i class="fa fa-desktop"></i>
+                    </span>
+                    <h3>HOVERY</h3>
+                    <br>
+                    <ul class="hidden">
+                        <li>lorem ipsum dolor</li>
+                        <li>lorem ipsum dolor</li>
+                        <li>lorem ipsum dolor</li>
+                        <li>lorem ipsum dolor</li>
+                    </ul>
+                    <br><br>
+                    <a class="expand">
+                        <span class="plus">+</span>
+                        <span class="minus">-</span>
+                    </a>
+                </div>
+                <div class="box fourth">
+                        <span class="icon-cont">
+                            <i class="fa fa-rocket"></i>
+                        </span>
+                        <h3>LEARN</h3>
+                        <br>
+                        <ul class="hidden">
+                            <li>lorem ipsum dolor</li>
+                            <li>lorem ipsum dolor</li>
+                            <li>lorem ipsum dolor</li>
+                            <li>lorem ipsum dolor</li>
+                        </ul>
+                        <br><br>
+                        <a class="expand">
+                            <span class="plus">+</span>
+                            <span class="minus">-</span>
+                        </a>
+                    </div>               
+                  </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+                    <script>
+                    $('.box').click(function(){
+                        $(this).toggleClass('selected');
+                    });
+                    </script>
+</body>
+</html>
